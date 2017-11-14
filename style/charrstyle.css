@@ -1,0 +1,58 @@
+body {
+	background: url("../images/charrloading.jpg") fixed no-repeat ;
+	font-family:arial;
+	margin:0;
+	}
+
+header {
+	background: #333333;
+	padding-bottom: 0.01px;
+	}
+
+header h1 {
+	font-family:fantasy;
+	font-size: 60px;
+	margin:0 0 0 10px;
+	color: white;
+	}
+
+header ul li {
+	background: #404040;
+	color: white;
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 0px 10px;
+	border-radius:10px;
+	}
+
+header ul li a {
+	color: white;
+	}
+
+#ensemble {
+	background: url("../images/engine.jpg");
+	font-size: 17px;
+	margin: 50px 150px;
+	border-radius: 10px;
+	padding: 0 10px 5px 10px;
+	color:white;
+	}
+
+figure {
+	margin: 0 50px 30px 50px;
+	display: inline-block;
+	text-align: center;
+	font-style: italic;
+	}
+
+img {
+	border-radius: 10px;
+	margin: 20px 120px;
+	}
+
+h2 {
+	font-family: fantasy;
+	font-size: 30px;
+	padding-top: 15px;
+	margin-left: 30px;
+	}
