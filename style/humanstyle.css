@@ -45,17 +45,20 @@ h2 {
 	margin-left: 30px;
 	}
 
-img {
-	border-radius: 10px;
-	margin: 20px 120px;
+	img {
+			border-radius: 10px;
 	}
+
 figure {
-	margin: 0 0 30px 120px;
 	display: inline-block;
 	text-align: center;
 	font-style: italic;
 	}
 
-#knight {
-	padding-left: 25%;
+	#pics {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-repeat: no-repeat;
+		margin-bottom: 30px;
 	}

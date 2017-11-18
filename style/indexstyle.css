@@ -1,5 +1,5 @@
 body {
-	background: url("../images/gw2.jpg") no-repeat fixed;
+	background: url("../images/gw2.jpg") fixed  no-repeat;
 	font-family:arial;
 	margin:0;
 	}
@@ -44,6 +44,8 @@ p background {
 	display: flex;
   align-items: center;
   justify-content: center;
+	background-image: url(images/tyriemap.png);
+	background-repeat: no-repeat;
 }
 
 img {

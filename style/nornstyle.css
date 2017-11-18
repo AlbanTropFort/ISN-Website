@@ -3,4 +3,55 @@ body {
 	font-family:arial;
 	margin:0;
 	}
-	
+
+header {
+	background:#FFC107;
+	padding-bottom: 0.01px;
+	}
+
+header h1 {
+	font-family:fantasy;
+	font-size: 60px;
+	margin:0 0 0 10px;
+	color: #0c4681;
+	}
+
+header ul li {
+	background: #0c4681;
+	color: white;
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 0px 10px;
+	border-radius:10px;
+	}
+
+header ul li a {
+	color: white;
+	}
+
+#ensemble {
+	background: url("../images/.jpg");
+	font-size: 17px;
+	margin: 50px 150px;
+	border-radius: 10px;
+	padding: 0 10px 5px 10px;
+	text-shadow: 0.25px 0.25px 0 #FFFFFF;
+	}
+
+h2 {
+	font-family: fantasy;
+	font-size: 30px;
+	padding-top: 15px;
+	margin-left: 30px;
+	}
+
+img {
+	border-radius: 10px;
+	margin: 20px 120px;
+	}
+figure {
+	margin: 0 0 30px 120px;
+	display: inline-block;
+	text-align: center;
+	font-style: italic;
+	}

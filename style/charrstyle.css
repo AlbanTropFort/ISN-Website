@@ -1,5 +1,5 @@
 body {
-	background: url("../images/charrloading.jpg") fixed no-repeat ;
+	background: url("../images/charrloading.jpg") fixed no-repeat;
 	font-family:arial;
 	margin:0;
 	}
@@ -39,7 +39,6 @@ header ul li a {
 	}
 
 figure {
-	margin: 0 50px 30px 50px;
 	display: inline-block;
 	text-align: center;
 	font-style: italic;
@@ -47,7 +46,14 @@ figure {
 
 img {
 	border-radius: 10px;
-	margin: 20px 120px;
+	}
+
+	#pics {
+		display: flex;
+	  align-items: center;
+	  justify-content: center;
+		background-repeat: no-repeat;
+		margin-bottom: 30px;
 	}
 
 h2 {
