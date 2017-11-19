@@ -5,7 +5,7 @@ body {
 	}
 
 header {
-	background:#FFC107;
+	background:#4da6ff;
 	padding-bottom: 0.01px;
 	}
 
@@ -30,12 +30,11 @@ header ul li a {
 	}
 
 #ensemble {
-	background: url("../images/.jpg");
+	background: url("../images/ice.jpg");
 	font-size: 17px;
 	margin: 50px 150px;
 	border-radius: 10px;
 	padding: 0 10px 5px 10px;
-	text-shadow: 0.25px 0.25px 0 #FFFFFF;
 	}
 
 h2 {
@@ -47,10 +46,17 @@ h2 {
 
 img {
 	border-radius: 10px;
-	margin: 20px 120px;
 	}
+
+	#pics {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-repeat: no-repeat;
+		margin-bottom: 30px;
+	}
+
 figure {
-	margin: 0 0 30px 120px;
 	display: inline-block;
 	text-align: center;
 	font-style: italic;
