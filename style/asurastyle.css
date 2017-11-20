@@ -1,11 +1,11 @@
 body {
-	background: url("../images/charrloading.jpg") fixed no-repeat;
+	background: url("../images/asurasloading.jpg") fixed no-repeat;
 	font-family:arial;
 	margin:0;
 	}
 
 header {
-	background: #333333;
+	background:#311B92;
 	padding-bottom: 0.01px;
 	}
 
@@ -13,11 +13,11 @@ header h1 {
 	font-family:fantasy;
 	font-size: 60px;
 	margin:0 0 0 10px;
-	color: white;
+	color:#512DA8;
 	}
 
 header ul li {
-	background: #404040;
+	background:#512DA8;
 	color: white;
 	display: inline-block;
 	padding: 10px 15px;
@@ -30,18 +30,19 @@ header ul li a {
 	}
 
 #ensemble {
-	background: url("../images/engine.jpg");
+	background: url("../images/tech.jpg");
 	font-size: 20px;
 	margin: 50px 150px;
 	border-radius: 10px;
 	padding: 0 10px 5px 10px;
-	color:white;
+
 	}
 
-figure {
-	display: inline-block;
-	text-align: center;
-	font-style: italic;
+h2 {
+	font-family: fantasy;
+	font-size: 30px;
+	padding-top: 15px;
+	margin-left: 30px;
 	}
 
 img {
@@ -50,15 +51,14 @@ img {
 
 	#pics {
 		display: flex;
-	  align-items: center;
-	  justify-content: center;
+		align-items: center;
+		justify-content: center;
 		background-repeat: no-repeat;
 		margin-bottom: 30px;
 	}
 
-h2 {
-	font-family: fantasy;
-	font-size: 30px;
-	padding-top: 15px;
-	margin-left: 30px;
+figure {
+	display: inline-block;
+	text-align: center;
+	font-style: italic;
 	}
