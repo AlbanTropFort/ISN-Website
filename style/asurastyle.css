@@ -76,12 +76,12 @@ img {
 	border-radius: 10px;
 	}
 
-	#pics {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background-repeat: no-repeat;
-		margin-bottom: 30px;
+#pics {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
 	}
 
 figure {

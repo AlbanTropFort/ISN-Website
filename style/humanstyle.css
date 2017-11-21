@@ -72,8 +72,8 @@ h2 {
 	margin-left: 30px;
 	}
 
-	img {
-			border-radius: 10px;
+img {
+		border-radius: 10px;
 	}
 
 figure {
@@ -82,10 +82,10 @@ figure {
 	font-style: italic;
 	}
 
-	#pics {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background-repeat: no-repeat;
-		margin-bottom: 30px;
+#pics {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
 	}

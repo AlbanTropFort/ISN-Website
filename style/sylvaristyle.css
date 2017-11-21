@@ -16,45 +16,45 @@ header h1 {
 	color:#4CAF50;
 	}
 
-button {
-		display: inline-block;
-		border-radius: 4px;
-		background-color: #4CAF50;
-		border: none;
-		color: #FFFFFF;
-		text-align: center;
-		font-size: 25px;
-		padding: 10px;
-		width: 150px;
-		transition: all 0.5s;
-		cursor: pointer;
-		margin: 5px;
-		}
+.button {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #4CAF50;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px;
+	width: 150px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	}
 
 .button span {
-		cursor: pointer;
-		display: inline-block;
-		position: relative;
-		transition: 0.5s;
-		}
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+	}
 
 .button span:after {
-		content: '\00bb';
-		position: absolute;
-		opacity: 0;
-		top: 0;
-		right: -20px;
-		transition: 0.5s;
-		}
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+	}
 
 .button:hover span {
-		padding-right: 25px;
-		}
+	padding-right: 25px;
+	}
 
 .button:hover span:after {
-		opacity: 1;
-		right: 0;
-		}
+	opacity: 1;
+	right: 0;
+	}
 
 #ensemble {
 	background: url("../images/nature.jpg");
@@ -75,12 +75,12 @@ img {
 	border-radius: 10px;
 	}
 
-	#pics {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background-repeat: no-repeat;
-		margin-bottom: 30px;
+#pics {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
 	}
 
 figure {
@@ -91,7 +91,7 @@ figure {
 
 #button {
 	transform-style: preserve-3d;
-}
+	}
 
 #button:after {
 	top: -100%;
@@ -103,4 +103,4 @@ figure {
 	content: 'Bouh';
 	transform-origin: left bottom;
 	transform: rotateX(90deg);
-}
+	}
