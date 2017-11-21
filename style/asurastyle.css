@@ -16,7 +16,7 @@ header h1 {
 	color:#651FFF;
 	}
 
-button {
+.button {
 	display: inline-block;
 	border-radius: 4px;
 	background-color: #651FFF;
